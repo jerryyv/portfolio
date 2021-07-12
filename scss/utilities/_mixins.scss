@@ -1,0 +1,29 @@
+// responsive mixins
+
+@mixin screen($breakpoint) {
+  @if $breakpoint == sm {
+    @media (max-width: 630px) {
+      @content;
+    }
+  }
+  @if $breakpoint == md {
+    @media (max-width: 850px) {
+      @content;
+    }
+  }
+  @if $breakpoint == lg {
+    @media (max-width: 1024px) {
+      @content;
+    }
+  }
+  @if $breakpoint == xl {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  }
+  @if $breakpoint == 2xl {
+    @media (max-width: 1500px) {
+      @content;
+    }
+  }
+}

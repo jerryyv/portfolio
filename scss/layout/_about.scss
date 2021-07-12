@@ -1,0 +1,22 @@
+#about {
+  margin-top: 20px;
+}
+
+.about-content {
+  margin-top: 20px;
+}
+
+.about-content {
+  p {
+    margin-top: 10px;
+
+    a {
+      color: $dark-color;
+      font-weight: bold;
+
+      &:hover {
+        color: $hover-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerry Varughese | Portfolio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/code-logo.png"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="css/style.min.css" />
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="nav-wrapper">
+        <div class="nav-content">
+            <a href="#" class="nav-name">Jerry Varughese</a>
+            <div class="nav-menu">
+                <div class="nav-menu-sections">
+                    <a href="#">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- about section  -->
+        <section id="about">
+            <h1 class="about-intro">Hi, <span id="u1">I'm Jerry.</span> </h1>
+            <div class="about-content">
+                <p>  
+                    I enjoy making <span>web&nbspapplications</span> that provide a <span id="h1">simple,</span> <span id="h2">engaging</span> and <span id="h3">accessible</span> user experience.
+                </p>
+                <p>
+                    I am a recent electrical engineering graduate who found a passion for coding after writing scripts to help solve complex and iterative assignment problems.
+                    This passion led me to the world of <span id="h4">web development</span>, where I continue to grow my 
+                    <span id="h5">programming skills</span> while learning to work with new and in-demand software technologies.
+                </p>
+                <p>
+                    Welcome to my portfolio, where I share some of the <a href="#projects">projects</a> 
+                    I've been woking on as I continue learning and becoming a <span id="h6">better developer.</span>
+                </p> 
+                <p>Check out my work below or on <a href="http://github.com/jerryyv">GitHub</a>.</p>
+            </div>
+        </section>
+        <!-- projects section -->
+        <section id="projects">
+            <h1 id="projects-title">Projects</h1>
+            <div class="project-content">
+                <img src="/images/chat.PNG" alt="firechat">
+                <div class="project-text">
+                    <h2 class="project-text-title">FireChat</h2>
+                    <p class="project-text-description">
+                        FireChat is an app where authenticated users can create/join multiple chat rooms and send messages in real time.
+                        The front-end was built with <span>react</span> and implemented CSS-in-JS using <span>styled-components</span> and <span>material-ui</span> components.
+                        Google's <span>firebase</span> was used in the back-end to handle user-authentication and data storage.
+                        <span>React-firebase-hooks</span> was used to fetch any real-time updates in the database and user state.
+                        The live site was deployed with <span>firbase hosting</span>.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://chat-app-10d10.web.app/" target="_blank" class="btn-1">See Live</a>
+                        <a href="https://github.com/jerryyv/firebase-chat-app" target="_blank" class="btn-2">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-content">
+                <img src="/images/nextnews.PNG" alt="nextnews">
+                <div class="project-text">
+                    <h2 class="project-text-title">NextNews</h2>
+                    <p class="project-text-description">
+                        NextNews is an app that lets users find top trending news articles from across Canada in various categories.
+                        The data for the articles is fetched from a <span>third party API</span> called News API.
+                        <span>Next.js</span> was chosen to develop the front-end and was proven useful in implementing features such as server-side rendering, page routing and pagination. 
+                        <span>Tailwindcss</span> was used to provide fully responsive styling to the app.
+                        The live site was deployed on <span>Vercel</span>.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://next-news-two.vercel.app/" target="_blank" class="btn-1">See Live</a>
+                        <a href="https://github.com/jerryyv/next-news" target="_blank" class="btn-2">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--contact section -->
+        <section id="contact">
+            <div class="contact-container">
+                <p class="email-link">Contact: <a href="mailto: jerryjacob97@gmail.com">jerryjacob97@gmail.com</a></p>
+                <div class="social-links">
+                    <a href="http://linkedin.com/in/jerry-varughese" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="http://github.com/jerryyv" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
