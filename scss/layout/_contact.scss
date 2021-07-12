@@ -8,15 +8,11 @@
   a {
     color: $dark-color;
     font-weight: 500;
+    text-decoration: underline;
 
     &:hover {
       color: $hover-color;
     }
-  }
-
-  .email-link {
-    color: $dark-color;
-    font-weight: 500;
   }
 
   @include screen(sm) {
@@ -24,8 +20,14 @@
   }
 }
 
+.contact-link {
+  color: $dark-color;
+  font-weight: 500;
+}
+
 .social-links {
   a {
+    color: $dark-color;
     padding-left: 10px;
 
     i {

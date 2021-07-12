@@ -38,7 +38,7 @@
     margin: 5px 0;
 
     span {
-      font-weight: bold;
+      font-weight: 700;
       color: $dark-color;
     }
   }
@@ -67,6 +67,13 @@
       color: $dark-color;
       transition: 200ms ease;
     }
+
+    &:focus {
+      background-color: $white-color;
+      color: $dark-color;
+      transition: 200ms ease;
+      outline: none;
+    }
   }
 
   .btn-2 {
@@ -77,6 +84,11 @@
 
     &:hover {
       border: 1px solid $dark-color;
+    }
+
+    &:focus {
+      border: 1px solid $dark-color;
+      outline: none;
     }
   }
 }
