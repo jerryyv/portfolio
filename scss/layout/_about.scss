@@ -9,15 +9,15 @@
 .about-content {
   p {
     margin-top: 10px;
+  }
 
-    a {
-      color: $dark-color;
-      font-weight: 500;
-      text-decoration: underline;
+  a {
+    color: $dark-color;
+    text-decoration: underline;
+    font-weight: 500;
 
-      &:hover {
-        color: $hover-color;
-      }
+    &:hover {
+      color: $hover-color;
     }
   }
 }

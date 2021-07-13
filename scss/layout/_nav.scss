@@ -12,6 +12,7 @@
   align-items: center;
   max-width: 950px;
   margin: 0 auto;
+  color: $dark-color;
 
   @include screen(lg) {
     margin: 0 100px;
@@ -24,7 +25,6 @@
 }
 
 .nav-name {
-  color: $dark-color;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 600;
@@ -35,7 +35,6 @@
   align-items: center;
 
   &-sections > a {
-    color: $dark-color;
     font-weight: 500;
     padding-right: 10px;
 
